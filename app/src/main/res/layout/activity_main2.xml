@@ -12,30 +12,32 @@
         android:background="#FD0000"
         android:fontFamily="@font/almendra_sc"
         android:text="Hello Dragonborn"
-        android:textColor="#020202"
         android:textAlignment="center"
+        android:textColor="#020202"
         android:textSize="34sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_marginVertical="8dp"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="8dp"
-        android:layout_height="wrap_content">
+        android:layout_marginVertical="8dp"
+        android:orientation="horizontal">
 
         <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_marginEnd="8dp"
             android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
             android:text="раз" />
 
         <Button
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_marginStart="8dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
             android:text="два" />
     </LinearLayout>
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_input"
         android:layout_width="match_parent"
@@ -48,6 +50,7 @@
             android:layout_height="wrap_content"
             android:maxLines="1" />
     </com.google.android.material.textfield.TextInputLayout>
+
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
