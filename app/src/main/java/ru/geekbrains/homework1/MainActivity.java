@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
 
             Toast toast = Toast.makeText(this, "name: " +person1.name + " " + "lastname: "+ person1.lastName+" ",Toast.LENGTH_LONG);
+
             toast.show();
 
         });
