@@ -8,6 +8,7 @@ public class Person {
     String email;
     String phone;
     String pass;
+    String grass;
     long birtday;
 
     public  Person(String name,String lastName,String email,String phone,String pass,long birtday){
